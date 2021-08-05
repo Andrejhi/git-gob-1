@@ -1,3 +1,21 @@
+//*__/ Typography
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500&display=swap");
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Quicksand', sans-serif;
+
+//*__/ Global Variables
+$brand: #5e81fe;
+$text: #8d96bd;
+$headingText: #3d4f9f;
+$lightenBG: linear-gradient(101.48deg, #e9efff 41.56%, #e0e9ff 81.53%);
+$darketBG: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
+
+//*__/ Main Setup
+html {
+	font-size: 10px;
+}
 body {
-	background-color: #000;
+	background-color: #fff;
+	font-family: "Roboto", sans-serif;
+	overflow: hidden;
 }

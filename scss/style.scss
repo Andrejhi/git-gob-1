@@ -1,7 +1,6 @@
 //*__/ Typography
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500&display=swap");
 // font-family: 'Open Sans', sans-serif;
-// font-family: 'Quicksand', sans-serif;
 
 //*__/ Global Variables
 $brand: #5e81fe;
@@ -11,11 +10,77 @@ $lightenBG: linear-gradient(101.48deg, #e9efff 41.56%, #e0e9ff 81.53%);
 $darketBG: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
 
 //*__/ Main Setup
-html {
-	font-size: 10px;
-}
+
 body {
 	background-color: #fff;
-	font-family: "Roboto", sans-serif;
+	// font-family: "Roboto", sans-serif;
+	// font-family: 'Open Sans', sans-serif;
+	font-family: "Quicksand", sans-serif;
 	overflow: hidden;
+}
+.container {
+}
+
+//*__/ Global styles
+.logo {
+	height: 26px;
+	width: 26px;
+	background-color: $brand;
+	display: inline-block;
+	border-radius: 50%;
+}
+.navbar {
+	.nav-link {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 1;
+		color: #697ca6;
+		letter-spacing: 1px;
+		&:hover {
+			color: $brand !important;
+		}
+	}
+}
+.bg-light {
+	background-color: #fff !important;
+}
+.social {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	&__link {
+		color: #757e9a;
+		transition: all 0.2s ease 0s;
+		&:hover {
+			color: $brand;
+		}
+	}
+}
+.btn-custom {
+	font-size: 13px;
+	font-weight: 700;
+	padding: 10px 18px;
+	border-radius: 2px;
+}
+.btn-custom--get-started {
+	background-color: #d2e1ff;
+	color: #3a79ff;
+	&:hover {
+		background-color: #3a79ff;
+		color: #d2e1ff;
+	}
+}
+.btn-custom--read-more {
+	background-color: #ffd7d7;
+	color: #d43f3f;
+	&:hover {
+		background-color: #d43f3f;
+		color: #ffd7d7;
+	}
+}
+//*__/ Sections
+.header {
+	max-width: 1226px;
+	margin: 0 auto;
+	padding: 0px 10px;
 }

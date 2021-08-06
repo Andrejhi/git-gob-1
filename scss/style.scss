@@ -92,9 +92,20 @@ body {
 		}
 	}
 }
+.image-container {
+	img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
 //*__/ Sections
 .header {
 	max-width: 1226px;
 	margin: 0 auto;
 	padding: 0px 10px;
+}
+
+.hero {
 }

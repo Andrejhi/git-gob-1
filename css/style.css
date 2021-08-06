@@ -88,6 +88,14 @@ body {
   background-color: #5e81fe;
 }
 
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .header {
   max-width: 1226px;
   margin: 0 auto;

@@ -101,3 +101,27 @@ body {
   margin: 0 auto;
   padding: 0px 10px;
 }
+
+.partners {
+  max-width: 908px;
+  margin: 0 auto;
+  padding: 60px 10px 40px;
+}
+
+.partners__list {
+  padding: 0;
+}
+
+.partners__item {
+  margin: 0px 0px 20px 0px;
+}
+
+.partners__links svg {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  fill: #d6dae5;
+}
+
+.partners__links:hover svg {
+  fill: #5982e7;
+}

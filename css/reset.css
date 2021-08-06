@@ -131,3 +131,7 @@ input,
 select {
 	vertical-align: middle;
 }
+ul {
+	list-style: none;
+	margin: 0 !important;
+}

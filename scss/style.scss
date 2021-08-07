@@ -141,22 +141,20 @@ body {
 	}
 }
 .plan-manage {
+	overflow: hidden;
 	background-color: #f5f8ff;
 	color: #3d4f9f;
 	padding: 10vmin 0px;
 	.container {
-		// max-width: 880px;
-		// margin: 0 auto;
 	}
 	&__col {
-		padding: 0;
 	}
 
 	&__content {
 		@media (min-width: 1024px) {
 			max-width: 413px;
 			margin-left: auto;
-			margin-right: 17px;
+			margin-right: 10px;
 		}
 	}
 
@@ -214,6 +212,12 @@ body {
 	}
 
 	&__image {
-		// padding: 20px 0px 20px 40px;
+		position: relative;
+		padding: 0px 0px 80% 0px;
+		background-image: url("../img/illustration.png");
+		background-repeat: no-repeat;
+		background-size: 120%;
+		background-origin: border-box;
+		background-position: 70% -10%;
 	}
 }

@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif;
+}
+
+.logo {
+  height: 26px;
+  width: 26px;
+  background-color: #5e81fe;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+  color: #697ca6;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link:hover {
+  color: #5e81fe !important;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+}
+
+.social__link {
+  color: #757e9a;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.social__link:hover {
+  color: #5e81fe;
+}
+
+.btn-custom {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 18px;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.1;
+  border-radius: 2px;
+}
+
+.btn-custom:hover {
+  background-color: #d2e1ff;
+  color: #ffffff;
+}
+
+.btn-custom--get-started {
+  background-color: #d2e1ff;
+  color: #3a79ff;
+}
+
+.btn-custom--get-started:hover {
+  background-color: #3a79ff;
+  color: #d2e1ff;
+}
+
+.btn-custom--read-more {
+  background-color: #ffd7d7;
+  color: #d43f3f;
+}
+
+.btn-custom--read-more:hover {
+  background-color: #d43f3f;
+  color: #ffd7d7;
+}
+
+.slider__bullets button {
+  display: block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+  background-color: #d1d6e3;
+}
+
+.slider__bullets .active {
+  background-color: #5e81fe;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header {
+  max-width: 1226px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.partners {
+  max-width: 908px;
+  margin: 0 auto;
+  padding: 60px 10px 40px;
+}
+
+.partners__list {
+  padding: 0;
+}
+
+.partners__item {
+  margin: 0px 0px 20px 0px;
+}
+
+.partners__links svg {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  fill: #d6dae5;
+}
+
+.partners__links:hover svg {
+  fill: #5982e7;
+}
+
+.plan-manage {
+  overflow: hidden;
+  background-color: #f5f8ff;
+  color: #3d4f9f;
+  padding: 10vmin 0px;
+}
+
+@media (min-width: 1024px) {
+  .plan-manage__content {
+    max-width: 413px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+}
+
+.plan-manage__caption {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0px 0px 27px 0px;
+}
+
+.plan-manage__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.3;
+  margin: 0px 0px 18px 0px;
+}
+
+.plan-manage__title strong {
+  font-weight: 500;
+}
+
+.plan-manage__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+}
+
+.plan-manage__btn--view-video {
+  -webkit-box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+          box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+  background-color: #4c85ff;
+  color: #ffffff;
+  border-radius: 2px 0 0 2px;
+}
+
+.plan-manage__btn--view-video::after {
+  content: "";
+  display: inline-block;
+  margin: 0px 0px 0px 6px;
+  width: 6.5px;
+  height: 7.2px;
+  background: url("../img/Polygon.svg") no-repeat;
+}
+
+.plan-manage__btn--see-features {
+  margin: 0px 0px 0px -4px;
+  color: #adb4d2;
+  font-weight: 500;
+  border: 1px solid #d1d1e4;
+  border-radius: 0 2px 2px 0;
+}
+
+.plan-manage__btn--see-features:hover {
+  color: #5982e7;
+}
+
+.plan-manage__image {
+  position: relative;
+  padding: 0px 0px 80% 0px;
+  background-image: url("../img/illustration.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-origin: border-box;
+  background-position: 70% -10%;
+}

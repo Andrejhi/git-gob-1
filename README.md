@@ -8,4 +8,4 @@
 👉 JavaScript.  
 👉 GRID&FLEX.  
 
-🔗 [Результат](https://github.com/Andrejhi/git-gob-1)
+🔗 [Результат](https://andrejhi.github.io/git-gob-1/)

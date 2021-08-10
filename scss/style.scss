@@ -412,12 +412,18 @@ ul {
 	padding: 104px 20px;
 	background-color: #f5f8ff;
 	text-align: center;
+	@media (max-width: 768px) {
+		padding: 54px 20px;
+	}
 	&__caption {
 		margin: 0px 0px 20px 0px;
 	}
 
 	&__title {
 		margin: 0px 0px 90px 0px;
+		@media (max-width: 768px) {
+			margin: 0px 0px 40px 0px;
+		}
 	}
 }
 
@@ -427,16 +433,20 @@ ul {
 	margin: 0 auto;
 	background-color: #fff;
 	text-align: left;
-	&__grid-container {
+	@media (max-width: 425px) {
+		padding: 30px;
+	}
+	&__container {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(408px, 1fr));
 		gap: 60px;
 	}
 
-	&__grid-item {
+	&__col {
 	}
 
 	&__image {
+		margin: 0px 0px 30px 0px;
 		img {
 			display: inline-block;
 			max-width: 100%;
@@ -444,7 +454,9 @@ ul {
 			object-fit: cover;
 		}
 	}
-
+	&__content {
+		// margin: 30px 0px;
+	}
 	&__title {
 		font-size: 36px;
 		line-height: 1.2;
@@ -476,7 +488,7 @@ ul {
 		background-color: transparent;
 		font-weight: 700;
 		font-size: 13px;
-		line-height: 1.1;
+		line-height: 1.4;
 		color: #a6b6da;
 	}
 }

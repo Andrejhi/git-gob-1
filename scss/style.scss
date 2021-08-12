@@ -169,6 +169,9 @@ ul {
 }
 .accordion-body {
 	padding: 0px 15px 0px 80px;
+	@media (max-width: 768px) {
+		padding: 0px 15px 0px 40px;
+	}
 	p {
 		font-family: Roboto, sans-serif;
 		font-size: 14px;
@@ -631,6 +634,9 @@ ul {
 }
 .fqa {
 	padding: 175px 10px;
+	@media (max-width: 768px) {
+		padding: 60px 15px;
+	}
 	&__caption {
 		text-align: center;
 		margin: 0px 0px 20px 0px;
@@ -639,6 +645,9 @@ ul {
 	&__title {
 		text-align: center;
 		margin: 0px 0px 60px 0px;
+		@media (max-width: 768px) {
+			margin: 0px 0px 30px 0px;
+		}
 	}
 
 	&__accordion {
@@ -650,25 +659,12 @@ ul {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-	}
-
-	&__answer {
-	}
-
-	&__documentation-link {
-	}
-}
-.fqa {
-	&__caption {
-	}
-
-	&__title {
-	}
-
-	&__accordion {
-	}
-
-	&__documentation-block {
+		@media (max-width: 768px) {
+			flex-direction: column;
+			justify-content: start;
+			align-items: start;
+			margin: 0px 0px 20px 0px;
+		}
 	}
 
 	&__answer {

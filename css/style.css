@@ -182,6 +182,12 @@ ul {
   padding: 0px 15px 0px 80px;
 }
 
+@media (max-width: 768px) {
+  .accordion-body {
+    padding: 0px 15px 0px 40px;
+  }
+}
+
 .accordion-body p {
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -698,6 +704,12 @@ ul {
   padding: 175px 10px;
 }
 
+@media (max-width: 768px) {
+  .fqa {
+    padding: 60px 15px;
+  }
+}
+
 .fqa__caption {
   text-align: center;
   margin: 0px 0px 20px 0px;
@@ -706,6 +718,12 @@ ul {
 .fqa__title {
   text-align: center;
   margin: 0px 0px 60px 0px;
+}
+
+@media (max-width: 768px) {
+  .fqa__title {
+    margin: 0px 0px 30px 0px;
+  }
 }
 
 .fqa__accordion {
@@ -723,6 +741,22 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .fqa__documentation-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    margin: 0px 0px 20px 0px;
+  }
 }
 
 .cta {

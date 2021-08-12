@@ -761,7 +761,7 @@ ul {
 
 .cta {
   padding: 90px 10px;
-  background: url("../img/cta-bg.jpg") center/cover no-repeat;
+  background: url("../img/cta-bg.png") 100%/cover no-repeat;
   text-align: center;
   color: #ffffff;
 }

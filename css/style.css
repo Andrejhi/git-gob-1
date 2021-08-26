@@ -805,3 +805,110 @@ ul {
   border-radius: 0 2px 2px 0;
   margin: 0px 0px 0px -4px;
 }
+
+.sign-up {
+  padding: 118px 10px;
+  background-color: #fcfdff;
+  max-width: 947px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .sign-up {
+    padding: 60px 15px;
+  }
+}
+
+.sign-up__contetnt {
+  max-width: 330px;
+}
+
+@media (max-width: 768px) {
+  .sign-up__contetnt {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.sign-up__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3d4f9f;
+  margin: 0px 0px 20px 0px;
+}
+
+.sign-up__text {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+}
+
+.sign-up__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .sign-up__form {
+    max-width: 477px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sign-up__form {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.sign-up__email {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  background: #efeff7;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a85ad;
+  padding: 21px 23px;
+  border-style: none;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+@media (max-width: 768px) {
+  .sign-up__email {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
+.sign-up__submitt {
+  display: block;
+  max-width: 184px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 20px 62px;
+  border-style: none;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #4d6ce1;
+  -webkit-box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+          box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+  border-radius: 5px;
+}

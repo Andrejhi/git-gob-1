@@ -22,6 +22,9 @@ ul {
 	padding: 0;
 }
 .container {
+	@media (max-width: 768px) {
+		padding: 0px 40px;
+	}
 }
 
 //*__/ Global styles
@@ -31,6 +34,7 @@ ul {
 	background-color: $brand;
 	display: inline-block;
 	border-radius: 50%;
+	margin: 9px 0px 0px 0px;
 }
 .navbar {
 	.nav-link {
@@ -39,6 +43,9 @@ ul {
 		line-height: 1;
 		color: #697ca6;
 		letter-spacing: 1px;
+		@media (max-width: 768px) {
+			font-size: 18px;
+		}
 		&:hover {
 			color: $brand !important;
 		}
@@ -790,5 +797,28 @@ ul {
 		background: #4d6ce1;
 		box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
 		border-radius: 5px;
+	}
+}
+
+.footer {
+	padding: 54px 0px;
+	@media (min-width: 768px) {
+		padding: 90px 0px;
+	}
+	&__navbar {
+		.navbar-nav {
+			@media (min-width: 768px) {
+				align-items: center;
+			}
+		}
+	}
+
+	&__copyright {
+		font-size: 12px;
+		font-weight: 500;
+		color: #aeb8d0;
+		@media (max-width: 768px) {
+			text-align: center;
+		}
 	}
 }
